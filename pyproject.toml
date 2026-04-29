@@ -1,0 +1,13 @@
+[project]
+name = "soft-registration"
+version = "0.1.0"
+description = "Interactive landmark-based non-rigid registration for two images."
+requires-python = ">=3.10"
+dependencies = [
+    "dash",
+    "nibabel",
+    "numpy",
+    "pillow",
+    "plotly",
+    "scipy",
+]
