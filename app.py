@@ -806,8 +806,11 @@ def image_figure(image: np.ndarray, points: list[Point], title: str) -> go.Figur
                 marker={
                     "size": 16,
                     "color": colors,
+                    "opacity": 0.95,
                     "line": {"color": "black", "width": 2},
                 },
+                selected={"marker": {"opacity": 1.0}},
+                unselected={"marker": {"opacity": 0.9}},
                 name="Landmarks",
             )
         )
