@@ -12,6 +12,16 @@ UV_PROJECT_ENVIRONMENT=/home/olmozavala/uv/envs/eoasweb uv run python app.py
 
 Then open the local Dash URL shown in the terminal.
 
+## Interface Example
+
+Landmarks are selected in matching order on the MRI slice and PC3 image.
+
+![MRI and PC3 landmark selection](imgs/interface_landmarks.png)
+
+After registration, the overlay helps visually inspect how the warped PC3 image aligns with the MRI slice.
+
+![Registered PC3 overlay in MRI space](imgs/registered_overlay.png)
+
 ## Inputs
 
 - MRI: `img1.nii.gz`, displayed as a grayscale slice stack.
